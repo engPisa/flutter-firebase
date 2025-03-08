@@ -2,9 +2,6 @@
 
 Este repositório contém um exemplo de **formulário Flutter** que envia dados para o **Firebase Realtime Database**. O objetivo é demonstrar a integração entre Flutter e Firebase, permitindo armazenar informações.
 
-1. **`somar_vpag.py`**: Processa notas fiscais de produtos e soma os valores pagos (`vPag`).
-2. **`somar_vserv.py`**: Processa notas fiscais de serviços e soma os valores de serviços prestados (`vServ`).
-
 ## 📜 Pré-requisitos
 
 - Flutter SDK instalado ([Guia de Instalação](https://flutter.dev/docs/get-started/install))
@@ -21,11 +18,5 @@ dependencies:
   cupertino_icons: ^1.0.8
   firebase_core: ^3.12.1
   firebase_database: ^11.3.4
-```
-
-Para instalar:
-
-```sh
-flutter pub get
 ```
 
