@@ -1,16 +1,31 @@
-# flutter_firebase
+# Conexão entre App_flutter e firebase realtime;
 
-Learning use firebase comunication
+Este repositório contém um exemplo de **formulário Flutter** que envia dados para o **Firebase Realtime Database**. O objetivo é demonstrar a integração entre Flutter e Firebase, permitindo armazenar informações.
 
-## Getting Started
+1. **`somar_vpag.py`**: Processa notas fiscais de produtos e soma os valores pagos (`vPag`).
+2. **`somar_vserv.py`**: Processa notas fiscais de serviços e soma os valores de serviços prestados (`vServ`).
 
-This project is a starting point for a Flutter application.
+## 📜 Pré-requisitos
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK instalado ([Guia de Instalação](https://flutter.dev/docs/get-started/install))
+- Conta no [Firebase](https://firebase.google.com/)
+- Criar projeto Firebase realtime Firebase [Firebase](https://console.firebase.google.com/u/0/?hl=pt-br&_gl=1*t25nvu*_ga*MTEyMDQ4NDQ4OC4xNzQwOTM1Mjg5*_ga_CW55HF8NVT*MTc0MTQ2OTQ0MC4zLjEuMTc0MTQ3MjYwNy41MS4wLjA.)
+- Projeto Firebase configurado ([Guia de Configuração](https://firebase.google.com/docs/flutter/setup?hl=pt-br&platform=ios))
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📦 Dependências Utilizadas:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.12.1
+  firebase_database: ^11.3.4
+```
+
+Para instalar:
+
+```sh
+flutter pub get
+```
+
