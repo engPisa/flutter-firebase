@@ -19,4 +19,3 @@ dependencies:
   firebase_core: ^3.12.1
   firebase_database: ^11.3.4
 ```
-
